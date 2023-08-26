@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Ignore plugin directories (since this is inside wp-content/plugins)
+/node_modules/
+/vendor/
+
+# Ignore build and compiled files
+/dist/
+/build/
+*.min.css
+*.min.js
+
+# Ignore temporary and backup files
+*.bak
+*.swp
+*.tmp
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore version control directories/files
+.svn/
+.git/
+.hg/
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore deployment and hosting configuration files
+/capistrano/
+/deploy/
+/deployment/
+/CircleCI/
+.travis.yml
+.github/
+
+# dotenv environment variables file
+.env
+
+# Output of `wp-scripts plugin-zip`
+*.zip
+
+# Output of `npm pack`
+*.tgz
+
+# Optional eslint cache
+.eslintcache
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
