@@ -1,6 +1,6 @@
 # ACF Block Starter Plugin
 
-Welcome to the ACF Block Starter repository! This plugin is designed to showcase the implementation of multiple ACF (Advanced Custom Fields) blocks with a streamlined build process. With this plugin, you can explore and understand how to create dynamic blocks using ACF, and leverage the power of inner blocks to enhance your content creation experience in WordPress.
+Welcome to the ACF Block Starter repository! This plugin is designed to showcase the implementation of multiple ACF (Advanced Custom Fields) blocks with a build process. With this plugin, you can explore and understand how to create dynamic blocks using ACF, and leverage the power of inner blocks to enhance your content creation experience in WordPress.
 
 ## Features
 
@@ -17,8 +17,20 @@ Welcome to the ACF Block Starter repository! This plugin is designed to showcase
 Follow these steps to get started with the ACF Block Starter plugin:
 
 1. **Clone the Repository**: Clone this repository to your local development environment.
+    ```bash
+    git clone git@github.com:abredikis/acf-block-starter.git
+    ```
 2. **Install Dependencies**: Navigate to the plugin directory and install the required dependencies using a package manager like npm or yarn.
-3. **Build Assets**: Build the plugin's assets using the provided build script.
+    ```bash
+    cd acf-block-starter
+    npm install
+    ```
+3. **Build Assets**: Build the plugin's assets using the provided build script. Use `npm run start` for development build or `npm run build` for production build.
+    ```bash
+    npm run start   # For development build
+    # OR
+    npm run build   # For production build
+    ```
 4. **Activate the Plugin**: Activate the ACF Block Starter plugin from the WordPress admin dashboard.
 5. **Explore the Blocks**: Once activated, you can find the Counter block and the InnerBlock functionality block available in the WordPress block editor. Experiment with these blocks to understand how they are built and how dynamic and nested functionality is implemented.
 
