@@ -4,13 +4,13 @@ Welcome to the ACF Block Starter repository! This plugin is designed to showcase
 
 ## Features
 
-- **Multiple ACF Blocks**: The ACF Block Starter plugin comes with two pre-prepared blocks – a Counter block and a nested InnerBlock functionality block. These examples serve as a foundation for building your own custom blocks.
-
-- **Counter Block**: The Counter block demonstrates a simple dynamic block with a functional counter (Used to confirm that custom JavaScript code is loaded in both BE and FE).
+- **Multiple ACF Blocks**: The ACF Block Starter plugin comes with a single demo block – an ACF block with nested a InnerBloc. This example serves as a foundation for building your own custom blocks.
 
 - **InnerBlock Functionality**: The InnerBlock functionality block allows admin users to nest core or other custom blocks inside the ACF block. This enables flexible and creative layouts without the need to create separate React-based edit and PHP-based front-end templates.
 
 - **Efficient Implementation**: One of the key advantages of this implementation is that you only need to create a single PHP template that is used both for the back-end editing and front-end rendering. This eliminates the need for maintaining separate edit and front-end layouts, resulting in a more efficient development process.
+
+- **Optimized for Performance**: To boost performance, shared assets across multiple blocks can be imported from the /scripts and /styles directories, ensuring that assets are divided into chunks to eliminate redundant asset loading.
 
 ## Getting Started
 

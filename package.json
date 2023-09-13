@@ -15,6 +15,7 @@
 		"start": "wp-scripts start --webpack-copy-php"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^26.11.0"
+		"@wordpress/scripts": "^26.11.0",
+		"mini-css-extract-plugin": "^2.7.6"
 	}
 }
