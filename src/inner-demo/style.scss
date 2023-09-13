@@ -1,0 +1,17 @@
+.inner-demo {
+	position: relative;
+	color: #050505;
+
+	h1{
+		letter-spacing: 0.02em;
+		color: #2323dc;
+	}
+
+	.inner-demo-wrapper {
+		background-color: #fafafa;
+
+		.wp-block-group{
+			padding: 1.5rem 3rem;
+		}
+	}
+}
